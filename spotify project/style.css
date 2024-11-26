@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Varela+Round&display=swap');
+body{
+    background-color: lightyellow;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family:"Varela Round", sans-serif;
+}
+
+nav ul{
+     display: flex;
+     align-items: center;
+     list-style-type: none;
+     height: 65px;
+     background-color: rgb(12, 12, 12);
+     color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 119px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    /* display: flex; */
+    margin: 24px auto;
+    width:70%;
+    border-radius: 10px;
+    background-image: url(mymusic.jpg);
+    position: relative;
+}
+
+.songlist{
+    margin-left: 502px;
+}
+
+.songplay{
+    margin-left: 502px;
+}
+
+.bottom{
+     position: sticky;
+     height: 97px;
+     background-color: black;
+     bottom: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     flex-direction: column;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    display:grid;
+    width: 45%;
+    border-radius: 40px;
+    margin-top: 5px;
+    position: relative;
+    left: 55%;
+    margin-top: 32px;
+}
+
+.songbang{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    display:grid;
+    width: 45%;
+    border-radius: 40px;
+    margin-top: 5px;
+    position: relative;
+    left: 55%;
+    margin-top: 32px;
+}
+
+.mysong{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    display:grid;
+    width: 45%;
+    border-radius: 40px;
+    margin-top: 5px;
+    position: relative;
+    left: 55%;
+    margin-top: 32px;
+}
+
+.songitem img{
+    width: 50px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.songbang img{
+    width: 50px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.mysong img{
+    width: 50px;
+    margin: 0 23px;
+    border-radius: 34px;
+
+}
+
+
+.timestamp{
+    position: relative;
+    left: 176%;
+    bottom: 42px;
+}
+
+.timestamp i {
+    cursor: pointer;
+
+}
+
+.timesong i{
+    cursor: pointer;
+}
+
+.timesong{
+    position: relative;
+    left: 113%;
+    bottom: -69px;
+}
+
+.pikachu{
+    position: relative;
+    left: 113%;
+    bottom: -69px;
+}
+
+.pikachu i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 15vw;
+    bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.text{
+    position: relative;
+    left: 53%;
+    top: -25px;
+}
+
+.text1{
+    margin-left: 97px;
+    margin-top: -26px;
+}
+
+.text2{
+    margin-left: 97px;
+    margin-top: -26px;
+
+}
+
+.songlistbang{
+    margin-top: -100px;
+}
+
+.bestsong{
+    margin-top: -100px;
+}
